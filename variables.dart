@@ -6,6 +6,7 @@ void main() {
   final String lastName = 'Garcia';
 
   //null safety -> ?
+  //null safety es una caracteristica de Dart que permite que las variables puedan ser nulas y no se rompa el programa
   final bool? isAlive = null;
   // Para imprimir una variable dentro de un String se usa $nombreVariable
   print('Hola $name!  $lastName ');
